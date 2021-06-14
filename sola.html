@@ -1,158 +1,216 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <title>Pfadi Meilen Herrliberg</title>
-  </head>
-  <style type="text/css">
-  .item{
-      transition: .5s ease-in-out;
-  }
-  .item:hover{
-      filter: brightness(80%);
-  }
-  p{ margin-left: 20px;
-     margin-right: 20px;}
-  
-  </style>
-  <body>
-      <header>
+</head>
+<style type="text/css">
+    .item {
+        transition: .5s ease-in-out;
+    }
+
+    .item:hover {
+        filter: brightness(80%);
+    }
+
+    p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+</style>
+
+<body>
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Pfadi Meilen Herrliberg</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="lager.html">Leiter</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="anschlaege.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Anschläge
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="abiendli.html">Biendlistufe</a></li>
-                    <li><a class="dropdown-item" href="awoelfi.html">Wölflistufe</a></li>
-                    <li><a class="dropdown-item" href="a2meitli.html">Zweitstufe Meitli</a></li>
-                    <li><a class="dropdown-item" href="a2jungs.html">Zweitstufe Jungs</a></li>
-                    <li><a class="dropdown-item" href="apios.html">Pios</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="arover.html">Roverstufe</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="galerie.html">Galerie</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="error.html" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Pfadi Meilen Herrliberg</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="lager.html">Leiter</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="anschlaege.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Anschläge
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="abiendli.html">Biendlistufe</a></li>
+                                <li><a class="dropdown-item" href="awoelfi.html">Wölflistufe</a></li>
+                                <li><a class="dropdown-item" href="a2meitli.html">Zweitstufe Meitli</a></li>
+                                <li><a class="dropdown-item" href="a2jungs.html">Zweitstufe Jungs</a></li>
+                                <li><a class="dropdown-item" href="apios.html">Pios</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="arover.html">Roverstufe</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="galerie.html">Galerie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="error.html" tabindex="-1"
+                                aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-          </div>
         </nav>
-      </header>
+    </header>
     <main>
         <br>
         <h2 class="text-center">SoLa</h2>
-        <a href="./galerie.html"><p class="text-center"> <– Zurück zur Galerie</p></a>
-        <div class="container-fluid">
-            <div class="row mt-4">
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/1.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
+        <a href="./galerie.html">
+            <p class="text-center">
+                <– Zurück zur Galerie</p> </a> <div class="container-fluid">
+                    <div class="row mt-4">
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/1.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
 
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/2.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/2.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
 
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/1.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/1.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
 
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
-                         <img src="./images/2.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/2.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
 
-                    <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/1.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/1.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
 
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
-                            <img src="./images/2.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/1.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/2.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/1.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
 
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/2.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/2.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
 
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/1.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/1.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
 
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
-                         <img src="./images/2.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/2.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
 
-                    <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/1.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/1.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/1.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
 
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
-                            <img src="./images/2.jpeg" width="100%" height="100%">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <br>
-        <hr>
-        <h2 class="text-center">SoLa 2019</h2>
-        <p>Die Jungs reisten ins alte Japan. Dort mussten sie sich in Gruppen beweisen, um den neuen Herrscher der kommenden Dynastie zu bestimmen. Sie reisten nach Luzern, wo sie eine Burg vorfanden, in der sie ihr Zeltlager aufstellen konnten. Die Burg bestand aus einer 3 Meter hohen Mauer, auf der man laufen konnte. Zudem gab es eine funktionierende Zugbrücke, sowie einen Turm, von dem man den Pilatus sehen konnte. Die Pfadis konnten sich bei Aktivitäten Geld verdienen und dieses anschliessend beim Lagerspiel ausgeben, indem sie mit Strategie und Geschick auf einem Spielfeld Gebiete einnahmen. Die Gruppe, welche am Ende vom Lager am meisten Fläche besass, hat gewonnen. Auf dem Lagerplatz war immer etwas los. Die Pfadis konnten sich Rüstungen basteln, es gab ein Fussballturnier und ein Samurai Training. Die Jungs lernten etwas über das Kartenlesen und Blachenzelte. Wissen, welches sie anschliessend für einen Biwak brauchten. Die Leiter zeigten ihnen, wie man mit dem Sackmesser richtig umgeht und tolle Sachen schnitzen kann. Um abzukühlen, gab es in der Mitte des Lagers eine Wasserschlacht auch um den Duft im Zeltlager etwas zu mindern. Als der neue Herrscher gegen Ende des Lagers bestimmt war, ging die 1. Stufe nach Hause. Die 2. Stufe hielt die Stellung. Zu Recht, denn in einer Nacht kamen die Mongolen, stellten ihre Zelte vor unserer Burg auf und wollten diese einnehmen. Ohne zu verhandeln stürmten sie auf die Mauern los, aber sie waren machtlos gegen uns in unserer Burg. Es war eine lange Nacht für die tapfere 2. Stufe. Sie verteidigten sich gegen den Feind und bewarfen diese mit Wasserballonen. Durch einen Angriff aus den Wald konnten sie die Angreifer von der Seite attackieren und besiegen. So konnten die Jungs dann friedlich zurück in ihre Schlafsäcke. In den letzten zwei Tagen baute die 2. Stufe zusammen mit den Leitern das Lager ab und reiste mit guter Stimmung nach Hause.
+                        <div class="item col-sm-6 col-md-4 mb-3">
+                            <a href="./images/2.jpeg" class="fancybox" data-fancybox="gallery1">
+                                <img src="./images/2.jpeg" width="100%" height="100%">
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <h2 class="text-center">SoLa 2019</h2>
+                    <p>Die Jungs reisten ins alte Japan. Dort mussten sie sich
+                        in Gruppen beweisen, um den neuen Herrscher der kommenden Dynastie zu bestimmen. Sie reisten
+                        nach Luzern,
+                        wo sie eine Burg vorfanden, in der sie ihr Zeltlager aufstellen konnten. Die Burg bestand aus
+                        einer 3 Meter
+                        hohen Mauer, auf der man laufen konnte. Zudem gab es eine funktionierende Zugbrücke, sowie einen
+                        Turm, von dem
+                        man den Pilatus sehen konnte. Die Pfadis konnten sich bei Aktivitäten Geld verdienen und dieses
+                        anschliessend beim
+                        Lagerspiel ausgeben, indem sie mit Strategie und Geschick auf einem Spielfeld Gebiete einnahmen.
+                        Die Gruppe, welche
+                        am Ende vom Lager am meisten Fläche besass, hat gewonnen. Auf dem Lagerplatz war immer etwas
+                        los. Die Pfadis konnten sich
+                        Rüstungen basteln, es gab ein Fussballturnier und ein Samurai Training. Die Jungs lernten etwas
+                        über das Kartenlesen und Blachenzelte.
+                        Wissen, welches sie anschliessend für einen Biwak brauchten. Die Leiter zeigten ihnen, wie man
+                        mit dem Sackmesser richtig umgeht und tolle Sachen schnitzen
+                        kann. Um abzukühlen, gab es in der Mitte des Lagers eine Wasserschlacht auch um den Duft im
+                        Zeltlager etwas zu mindern. Als der neue Herrscher gegen Ende des Lagers bestimmt war, ging die
+                        1. Stufe nach Hause. Die 2. Stufe hielt die Stellung. Zu Recht, denn in einer Nacht kamen die
+                        Mongolen, stellten ihre Zelte vor unserer Burg auf und wollten diese einnehmen. Ohne zu
+                        verhandeln stürmten sie auf die Mauern los, aber sie waren machtlos gegen uns in unserer Burg.
+                        Es war eine lange Nacht für die tapfere 2. Stufe. Sie verteidigten sich gegen den Feind und
+                        bewarfen diese mit Wasserballonen. Durch einen Angriff aus den Wald konnten sie die Angreifer
+                        von der Seite attackieren und besiegen. So konnten die Jungs dann friedlich zurück in ihre
+                        Schlafsäcke. In den letzten zwei Tagen baute die 2. Stufe zusammen mit den Leitern das Lager ab
+                        und reiste mit guter Stimmung nach Hause.
 
- 
-
-            Bei den Mädchen der Pfadi Meilen-Herrliberg und der Piostufe Ratatouille ist beim Antreten des Lagers Robin Hood aufgetaucht. Der berüchtigte Dieb bat die Pfadis um Hilfe, da es in Nottingham immer mehr Arme gibt und zu wenige, die sich um sie kümmern. Die hilfsbereiten Pfadis machten es sich zur Aufgabe, in ihrem Sommerlager möglichst viel gegen diese Ungerechtigkeit zu unternehmen. Im Laufe der Woche lernten die Pfadis, wie man sich vor dem gefürchteten Sheriff von Nottingham versteckt, sowie auch sich gegen ihn zu behaupten. Natürlich kümmerten sie sich auch um die Bedürfnisse der Armen. Es gab grössere und kleinere Aufgaben wie Pfeilbogenschnitzen, Theaterstücke erfinden und einstudieren, sich mit der Umwelt auseinander zu setzten oder mit Lady Mariane Sirup herzustellen. Durch diese Aufgaben konnten die Pfadis Geld verdienen, um es mit den Armen zu teilen. Neben all dieser Arbeit durfte jedoch der Spass nicht fehlen. Wassersrutschen wurden gebaut und zu Genüge ausprobiert, die Pfadis machten eine Tageswanderung mit anschliessendem Rodeln und verschiede Tänze. Ausserdem war eine Zaubershow der Bienli Teil des Tagesprogramms. Natürlich gab es auch genügend Freizeit, um selbst auf kreative Zeitvertriebe zu kommen. Die Pfadis erhielten die Möglichkeit bei einem BIPI Feuer das Pfadiversprechen ihrer jeweiligen Stufe abzulegen. Ende der Woche kam es noch zu einem entscheidenden Zusammenstoss mit dem mittlerweile tobenden Sheriff. Er entführte Robin Hood, sowie auch eine Leiterin. Dank des harten Trainings konnten die tapferen Pfadis die Geiseln zurückholen. Der Miesepeter wurde endgültig vertrieben. Somit können sich  Robin Hood und sein Gefolge heute mühelos um die Bedürftigen von Nottingham kümmern. Und die Pfadis genossen dem Rest ihres Pfadilagers in vollen Zügen, bis es an der Zeit war, mit den neu gewonnen Freundschaften und Erkenntnissen vom Balsthal nach Hause zu kehren.</p>
+                        Bei den Mädchen der Pfadi Meilen-Herrliberg und der Piostufe Ratatouille ist beim Antreten des
+                        Lagers Robin Hood aufgetaucht. Der berüchtigte Dieb bat die Pfadis um Hilfe, da es in Nottingham
+                        immer mehr Arme gibt und zu wenige, die sich um sie kümmern. Die hilfsbereiten Pfadis machten es
+                        sich zur Aufgabe, in ihrem Sommerlager möglichst viel gegen diese Ungerechtigkeit zu
+                        unternehmen. Im Laufe der Woche lernten die Pfadis, wie man sich vor dem gefürchteten Sheriff
+                        von Nottingham versteckt, sowie auch sich gegen ihn zu behaupten. Natürlich kümmerten sie sich
+                        auch um die Bedürfnisse der Armen. Es gab grössere und kleinere Aufgaben wie
+                        Pfeilbogenschnitzen, Theaterstücke erfinden und einstudieren, sich mit der Umwelt auseinander zu
+                        setzten oder mit Lady Mariane Sirup herzustellen. Durch diese Aufgaben konnten die Pfadis Geld
+                        verdienen, um es mit den Armen zu teilen. Neben all dieser Arbeit durfte jedoch der Spass nicht
+                        fehlen. Wassersrutschen wurden gebaut und zu Genüge ausprobiert, die Pfadis machten eine
+                        Tageswanderung mit anschliessendem Rodeln und verschiede Tänze. Ausserdem war eine Zaubershow
+                        der Bienli Teil des Tagesprogramms. Natürlich gab es auch genügend Freizeit, um selbst auf
+                        kreative Zeitvertriebe zu kommen. Die Pfadis erhielten die Möglichkeit bei einem BIPI Feuer das
+                        Pfadiversprechen ihrer jeweiligen Stufe abzulegen. Ende der Woche kam es noch zu einem
+                        entscheidenden Zusammenstoss mit dem mittlerweile tobenden Sheriff. Er entführte Robin Hood,
+                        sowie auch eine Leiterin. Dank des harten Trainings konnten die tapferen Pfadis die Geiseln
+                        zurückholen. Der Miesepeter wurde endgültig vertrieben. Somit können sich Robin Hood und sein
+                        Gefolge heute mühelos um die Bedürftigen von Nottingham kümmern. Und die Pfadis genossen dem
+                        Rest ihres Pfadilagers in vollen Zügen, bis es an der Zeit war, mit den neu gewonnen
+                        Freundschaften und Erkenntnissen vom Balsthal nach Hause zu kehren.</p>
     </main>
     <footer class="bg-light text-dark pt-5 pb-4">
         <div class="container text-center text-md-left">
@@ -160,7 +218,8 @@
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-info">About Us</h5>
                     <hr class="mb-4">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, </p>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, </p>
 
                 </div>
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
@@ -217,43 +276,57 @@
                 <div class="row-flex justify-content-center">
                     <div class="footer-copyright text-center py-3">© 2020 Copyright:
                         <a href="https://www.pfadimh.ch/"> Pfadi Meilen</a>
-                      </div>
+                    </div>
                 </div>
                 <div class="row-flex justify-content-center">
                     <div class="text-center">
                         <ul class="list-unstyled list-inline">
                             <li class="list-inline-item">
-                                <a href="#" class="text-dark"><li class="fab fa-facebook"></li></a>
+                                <a href="#" class="text-dark">
+                            <li class="fab fa-facebook"></li></a>
                             </li>
 
                             <li class="list-inline-item">
-                                <a href="#" class="text-dark"><li class="fab fa-twitter"></li></a>
+                                <a href="#" class="text-dark">
+                            <li class="fab fa-twitter"></li></a>
                             </li>
 
                             <li class="list-inline-item">
-                                <a href="#" class="text-dark"><li class="fab fa-google-plus"></li></a>
+                                <a href="#" class="text-dark">
+                            <li class="fab fa-google-plus"></li></a>
                             </li>
 
                             <li class="list-inline-item">
-                                <a href="#" class="text-dark"><li class="fab fa-linkedin-in"></li></a>
+                                <a href="#" class="text-dark">
+                            <li class="fab fa-linkedin-in"></li></a>
                             </li>
 
                             <li class="list-inline-item">
-                                <a href="#" class="text-dark"><li class="fab fa-youtube"></li></a>
+                                <a href="#" class="text-dark">
+                            <li class="fab fa-youtube"></li></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </footer>
-    
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
