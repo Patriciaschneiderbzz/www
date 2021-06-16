@@ -1,267 +1,303 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <title>Pfadi Meilen Herrliberg</title>
-  </head>
-  <style type="text/css">
-  .item{
-      transition: .5s ease-in-out;
-  }
-  .item:hover{
-      filter: brightness(80%);}
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    p {
-        margin-left: 20px;
-        margin-right: 20px;
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <title>Pfadi Meilen Herrliberg</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<style type="text/css">
+  .item {
+    transition: .5s ease-in-out;
   }
-  </style>
-  <body>
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Pfadi Meilen Herrliberg</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="lager.html">Leiter</a>
+
+  .item:hover {
+    filter: brightness(80%);
+  }
+
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+</style>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Pfadi Meilen Herrliberg</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="lager.html">Leiter</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="anschlaege.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Anschläge
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="abiendli.html">Biendlistufe</a></li>
+                <li><a class="dropdown-item" href="awoelfi.html">Wölflistufe</a></li>
+                <li><a class="dropdown-item" href="a2meitli.html">Zweitstufe Meitli</a></li>
+                <li><a class="dropdown-item" href="a2jungs.html">Zweitstufe Jungs</a></li>
+                <li><a class="dropdown-item" href="apios.html">Pios</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="anschlaege.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Anschläge
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="abiendli.html">Biendlistufe</a></li>
-                    <li><a class="dropdown-item" href="awoelfi.html">Wölflistufe</a></li>
-                    <li><a class="dropdown-item" href="a2meitli.html">Zweitstufe Meitli</a></li>
-                    <li><a class="dropdown-item" href="a2jungs.html">Zweitstufe Jungs</a></li>
-                    <li><a class="dropdown-item" href="apios.html">Pios</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="arover.html">Roverstufe</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="galerie.html">Galerie</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="error.html" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+                <li><a class="dropdown-item" href="arover.html">Roverstufe</a></li>
               </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="galerie.html">Galerie</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <br>
+    <h2 class="text-center">Hela 2020 der 2.Stufe</h2>
+    <a href="./galerie.html">
+      <p class="text-center">
+        <– Zurück zur Galerie</p> </a> <div class="container-fluid">
+          <div class="row mt-4">
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img12.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img12.png" width="100%" height="100%">
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img11.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img11.png" width="100%" height="100%">
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img10.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img10.png" width="100%" height="100%">
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img9.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img9.png" width="100%" height="100%">
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img8.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img8.png" width="100%" height="100%">
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img7.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img7.png" width="100%" height="100%">
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img6.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img6.png" width="100%" height="100%">
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img5.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img5.png" width="100%" height="100%">
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img4.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img4.png" width="100%" height="100%">
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img3.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img3.png" width="100%" height="100%">
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img2.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img2.png" width="100%" height="100%">
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="./images/img/hela2/img1.png" class="fancybox" data-fancybox="gallery1">
+                <img src="./images/img/hela2/img1.png" width="100%" height="100%">
+              </a>
             </div>
           </div>
-        </nav>
-      </header>
-    <main>
-        <br>
-        <h2 class="text-center">Hela 2020 der 2.Stufe</h2>
-        <a href="./galerie.html"><p class="text-center"> <– Zurück zur Galerie</p></a>
-        <div class="container-fluid">
-            <div class="row mt-4">
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img12.png" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/img/hela2/img12.png" width="100%" height="100%">
-                    </a>
-                </div>
+          </div>
+          <h2 class="text-center">HELA 2020</h2>
+          <p>Als die Pfadistufe von dem Besitzer des Hotel Gufelstocks zu einer Woche Urlaub eingeladen wurde, zögerte
+            diese nicht lange, sondern packten ihre sieben Sachen und machten sich auf den Weg ins Hotel. <br>
+            Doch das idyllische Hotelleben trügte. Schon am ersten Abend geschah ein grausamer Mord im Hotel und neben
+            spannenden Freizeitaktivitäten, die das Hotel den Tag über anbot, versuchten die Pfadis während
+            der Woche den Mord aufzuklären und den Verbrecher unschädlich zu machen.<br>
+            Wir wurden am Samstagmorgen von den Angestellten des Hotels am Bahnhof Meilen begrüsst. Wir trafen uns in
+            unseren zugeteilten Familien aus der Schweiz, Schottland, Japan und den Arabischen Emiraten.
+            Danach machten wir uns auf den Weg ins Hotel Gufelstock. Nach einem anstrengenden Marsch kamen wir dort an.
+            Als Belohnung erwartete uns eine atemberaubende Aussicht. Schon am ersten Abend ging es voll los.<br>
+            Nach dem Abendessen trafen wir uns alle im Aufenthaltsraum und machten ein Gemeinschaftsspiel. Plötzlich
+            kamen zwei Polizistinnen reingestürmt und erzählten uns von einem Mord vor dem Haus. Alle gingen zusammen
+            raus und fanden eine Leiche. Die Ärztin war schon dabei, die Leiche zu untersuchen.<br> Heraus kam, dass es
+            der Hotelmanager war. Jede Person wurde anschliessend einzeln verhört. Jeder im Hotel war verdächtig! Nach
+            einem
+            aufregenden Abend gingen wir alle zu Bett. Im Verlauf der Woche machten wir Sport mit den
+            Fitnesstrainerinnen, bauten Zelte und Parcours, spielten Räuber und Bulle im dichten Wald ums Hotel,
+            unternahmen Wanderungen,
+            besichtigten die Elmercitro Fabrik, bastelten Andenken an das Lager, bewiesen bei einem grossen Geländespiel
+            unsere Unschuld am Mord, kämpften mutig gegen fiese Gauner an zwei gruseligen Nachtaktivitäten, wurden beim
+            Wellness verwöhnt, meisterten gemeinsam Challenges bei einer Olympiade, lernten kochen und legten sogar eine
+            KochPrüfung ab, worauf wir ein Abzeichen erhielten.<br> Zwischen all dem tollen Programm, galt es aber immer
+            noch
+            den Mord aufzuklären. Dafür erhielten wir in den Familien jeden Abend neue Hinweise, bis wir beim
+            Abschlussabend unsere Theorien präsentieren konnten, was passiert war.<br> Doch erst als wir als Familien
+            zusammenspannten,
+            gelang es uns, den Mörder zu finden.<br> Es kam heraus, dass es die Tochter des Hotelbesitzers war, die den
+            Hotelmanager, ihr Bruder und Erbe des Hotels ermordete, da sie das Hotel selber erben wollte. Nach der
+            Verurteilung
+            feierten wir die Aufklärung des Falles und gingen danach glücklich ins Bett, bevor es am nächsten Morgen
+            wieder zurück nach Hause ging.</p>
 
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img11.png" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/img/hela2/img11.png" width="100%" height="100%">
-                    </a>
-                </div>
 
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img10.png" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/img/hela2/img10.png" width="100%" height="100%">
-                    </a>
-                </div>
-
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img9.png" class="fancybox" data-fancybox="gallery1">
-                         <img src="./images/img/hela2/img9.png" width="100%" height="100%">
-                    </a>
-                </div>
-
-                    <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img8.png" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/img/hela2/img8.png" width="100%" height="100%">
-                    </a>
-                </div>
-
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img7.png" class="fancybox" data-fancybox="gallery1">
-                            <img src="./images/img/hela2/img7.png" width="100%" height="100%">
-                    </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img6.png" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/img/hela2/img6.png" width="100%" height="100%">
-                    </a>
-                </div>
-
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img5.png" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/img/hela2/img5.png" width="100%" height="100%">
-                    </a>
-                </div>
-
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img4.png" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/img/hela2/img4.png" width="100%" height="100%">
-                    </a>
-                </div>
-
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img3.png" class="fancybox" data-fancybox="gallery1">
-                         <img src="./images/img/hela2/img3.png" width="100%" height="100%">
-                    </a>
-                </div>
-
-                    <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img2.png" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/img/hela2/img2.png" width="100%" height="100%">
-                    </a>
-                </div>
-
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="./images/img/hela2/img1.png" class="fancybox" data-fancybox="gallery1">
-                            <img src="./images/img/hela2/img1.png" width="100%" height="100%">
-                    </a>
-                </div>
+  </main>
+  <hr>
+  <footer>
+    <div class="container">
+      <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom01">Vorname</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Vorname" required>
+            <div class="valid-feedback">
+              Looks good!
             </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom02">Nachname</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="Nachname" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustomUsername">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+              </div>
+              <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username"
+                aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
         </div>
-        <h2 class="text-center">HELA 2019</h2>
-        <p>Als die Pfadistufe von dem Besitzer des Hotel Gufelstocks zu einer Woche Urlaub eingeladen wurde, zögerte diese nicht lange, sondern packten ihre sieben Sachen und machten sich auf den Weg ins Hotel. 
-            Doch das idyllische Hotelleben trügte. Schon am ersten Abend geschah ein grausamer Mord im Hotel und neben spannenden Freizeitaktivitäten, die das Hotel den Tag über anbot, versuchten die Pfadis während 
-            der Woche den Mord aufzuklären und den Verbrecher unschädlich zu machen.
-            Wir wurden am Samstagmorgen von den Angestellten des Hotels am Bahnhof Meilen begrüsst. Wir trafen uns in unseren zugeteilten Familien aus der Schweiz, Schottland, Japan und den Arabischen Emiraten.
-            Danach machten wir uns auf den Weg ins Hotel Gufelstock. Nach einem anstrengenden Marsch kamen wir dort an. Als Belohnung erwartete uns eine atemberaubende Aussicht. Schon am ersten Abend ging es voll los.
-            Nach dem Abendessen trafen wir uns alle im Aufenthaltsraum und machten ein Gemeinschaftsspiel. Plötzlich kamen zwei Polizistinnen reingestürmt und erzählten uns von einem Mord vor dem Haus. Alle gingen zusammen 
-            raus und fanden eine Leiche. Die Ärztin war schon dabei, die Leiche zu untersuchen. Heraus kam, dass es der Hotelmanager war. Jede Person wurde anschliessend einzeln verhört. Jeder im Hotel war verdächtig! Nach einem 
-            aufregenden Abend gingen wir alle zu Bett. Im Verlauf der Woche machten wir Sport mit den Fitnesstrainerinnen, bauten Zelte und Parcours, spielten Räuber und Bulle im dichten Wald ums Hotel, unternahmen Wanderungen, 
-            besichtigten die Elmercitro Fabrik, bastelten Andenken an das Lager, bewiesen bei einem grossen Geländespiel unsere Unschuld am Mord, kämpften mutig gegen fiese Gauner an zwei gruseligen Nachtaktivitäten, wurden beim
-             Wellness verwöhnt, meisterten gemeinsam Challenges bei einer Olympiade, lernten kochen und legten sogar eine KochPrüfung ab, worauf wir ein Abzeichen erhielten. Zwischen all dem tollen Programm, galt es aber immer noch
-              den Mord aufzuklären. Dafür erhielten wir in den Familien jeden Abend neue Hinweise, bis wir beim Abschlussabend unsere Theorien präsentieren konnten, was passiert war. Doch erst als wir als Familien zusammenspannten,
-               gelang es uns, den Mörder zu finden. Es kam heraus, dass es die Tochter des Hotelbesitzers war, die den Hotelmanager, ihr Bruder und Erbe des Hotels ermordete, da sie das Hotel selber erben wollte. Nach der Verurteilung 
-               feierten wir die Aufklärung des Falles und gingen danach glücklich ins Bett, bevor es am nächsten Morgen wieder zurück nach Hause ging.</p>
-            
-            
-    </main>
-    <hr>
-    <footer>
-        <div class="container">
-            <form class="needs-validation" novalidate>
-                <div class="form-row">
-                  <div class="col-md-4 mb-3">
-                    <label for="validationCustom01">Vorname</label>
-                    <input type="text" class="form-control" id="validationCustom01" placeholder="Vorname"  required>
-                    <div class="valid-feedback">
-                      Looks good!
-                    </div>
-                  </div>
-                  <div class="col-md-4 mb-3">
-                    <label for="validationCustom02">Nachname</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="Nachname"  required>
-                    <div class="valid-feedback">
-                      Looks good!
-                    </div>
-                  </div>
-                  <div class="col-md-4 mb-3">
-                    <label for="validationCustomUsername">Username</label>
-                    <div class="input-group">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroupPrepend">@</span>
-                      </div>
-                      <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
-                      <div class="invalid-feedback">
-                        Please choose a username.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="col-md-6 mb-3">
-                    <label for="validationCustom03">Stadt</label>
-                    <input type="text" class="form-control" id="validationCustom03" placeholder="Stadt" required>
-                    <div class="invalid-feedback">
-                      Please provide a valid city.
-                    </div>
-                  </div>
-                  <div class="col-md-3 mb-3">
-                    <label for="validationCustom04">Postleitzahl</label>
-                    <input type="text" class="form-control" id="validationCustom04" placeholder="Postleitzahl" required>
-                    <div class="invalid-feedback">
-                      Please provide a valid state.
-                    </div>
-                  </div>
-                  <div class="col-md-3 mb-3">
-                    <label for="validationCustom05">Alter</label>
-                    <input type="text" class="form-control" id="validationCustom05" placeholder="Alter" required>
-                    <div class="invalid-feedback">
-                      Please provide a valid zip.
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                      Agree to terms and conditions
-                    </label>
-                    <div class="invalid-feedback">
-                      You must agree before submitting.
-                    </div>
-                  </div>
-                </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
-              </form>
-              
-              <script>
-              // Example starter JavaScript for disabling form submissions if there are invalid fields
-              (function() {
-                'use strict';
-                window.addEventListener('load', function() {
-                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                  var forms = document.getElementsByClassName('needs-validation');
-                  // Loop over them and prevent submission
-                  var validation = Array.prototype.filter.call(forms, function(form) {
-                    form.addEventListener('submit', function(event) {
-                      if (form.checkValidity() === false) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                      }
-                      form.classList.add('was-validated');
-                    }, false);
-                  });
-                }, false);
-              })();
-              </script>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationCustom03">Stadt</label>
+            <input type="text" class="form-control" id="validationCustom03" placeholder="Stadt" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationCustom04">Postleitzahl</label>
+            <input type="text" class="form-control" id="validationCustom04" placeholder="Postleitzahl" required>
+            <div class="invalid-feedback">
+              Please provide a valid state.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationCustom05">Alter</label>
+            <input type="text" class="form-control" id="validationCustom05" placeholder="Alter" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
         </div>
-      
-    </footer>
-    
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </form>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  </body>
+      <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+          'use strict';
+          window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+              form.addEventListener('submit', function (event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+      </script>
+    </div>
+
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

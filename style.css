@@ -196,3 +196,19 @@ h1{
       column-count: 5;
     }
   }
+  .card{
+    border: 1px solid #a0a0a0);
+    border-left: 1px solid #D3D3D3;
+  }
+  a{
+    color: black;
+  }
+  a :hover{
+    color: rgb(148, 148, 148);
+    text-decoration: black;
+  }
+  .d-flex{
+    display: flex;
+    justify-content: flex-end;
+    margin-left:750px;
+  }
