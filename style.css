@@ -188,13 +188,7 @@ h1{
 .carousel-inner img {
     width: 100%;
   }
-  .card-columns
-    @include media-breakpoint-only(lg) {
-      column-count: 4;
-    }
-    @include media-breakpoint-only(xl) {
-      column-count: 5;
-    }
+  
   .card{
     border: 1px solid #a0a0a0;
     border-left: 1px solid #D3D3D3;
