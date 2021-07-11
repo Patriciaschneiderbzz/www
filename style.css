@@ -3,7 +3,7 @@
     height: auto;
 }
 h1{
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 /*!
@@ -196,12 +196,21 @@ h1{
     color: rgb(148, 148, 148);
     text-decoration: black;
   }
-  .d-flex{
-    display: flex;
-    justify-content: flex-end;
-    margin-left:750px;
+  .contacts{
+    height: 15px;
+    width: 15px;
   }
-  .collapse navbar-collapse{
-    display: flex;
-    justify-content: right;
+
+  .sw{
+    opacity: 0.25;
+  }
+
+  .sw:hover{
+    opacity: 1;
+    transition: 1s;
+  }
+
+  .borderred{
+    border: 2px solid red;
+    z-index:100;
   }
